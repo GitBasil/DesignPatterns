@@ -1,0 +1,14 @@
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/bin/Debug/net8.0/DesignPatternsLearning
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/bin/Debug/net8.0/DesignPatternsLearning.deps.json
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/bin/Debug/net8.0/DesignPatternsLearning.runtimeconfig.json
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/bin/Debug/net8.0/DesignPatternsLearning.dll
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/bin/Debug/net8.0/DesignPatternsLearning.pdb
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.GeneratedMSBuildEditorConfig.editorconfig
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.AssemblyInfoInputs.cache
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.AssemblyInfo.cs
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.csproj.CoreCompileInputs.cache
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.dll
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/refint/DesignPatternsLearning.dll
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.pdb
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/DesignPatternsLearning.genruntimeconfig.cache
+/Users/baselabubaker/Desktop/MIU/Work Preperation/DesignPatterns/DesignPatternsLearning/obj/Debug/net8.0/ref/DesignPatternsLearning.dll
