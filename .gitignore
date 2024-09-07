@@ -1,0 +1,59 @@
+# Ignore Visual Studio temporary files, build results, and
+# build logs.
+# Source: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# User-specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Roslyn generated files
+*.Generated.cs
+
+# Uncomment if you have a NuGet Packages directory
+# packages/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Dotnet build folders
+project.lock.json
+project.fragment.lock.json
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Ignore the db file created when running `dotnet user-secrets init`
+**/.vscode/secrets.json
+
+# Ignore publish output
+publish/
+app.publish/
+
+# Avoid ignore files for the Rider IDE (optional)
+.idea/
+*.DotSettings.user
+
+# Ignore configuration files created by Visual Studio Code
+.vscode/
+
+# Ignore Mac OS specific files (if working on MacOS)
+.DS_Store
+
+# Ignore Rider IDE folder
+.idea/
+
+# Ignore the `local.settings.json` file used for configuration
+local.settings.json
