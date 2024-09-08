@@ -17,7 +17,7 @@ This project demonstrates various design patterns implemented in C#. It contains
 │   │   ├── IRefuelable.cs
 │   │   ├── Vehicle.cs
 │   │   └── VehicleStore.cs
-│   ├── Singleton
+│   └── Singleton
 │       └── Singleton.cs
 ├── Structural
 │   ├── Adapter
@@ -31,10 +31,10 @@ This project demonstrates various design patterns implemented in C#. It contains
 │   │   │   ├── Housing.cs
 │   │   │   ├── IStructure.cs
 │   │   │   └── Room.cs
-│   │   ├── Playlist
-│   │   │   ├── IComponent.cs
-│   │   │   ├── Playlist.cs
-│   │   │   └── Song.cs
+│   │   └── Playlist
+│   │       ├── IComponent.cs
+│   │       ├── Playlist.cs
+│   │       └── Song.cs
 │   ├── Decorator
 │   │   ├── AuthenticatedWebPage.cs
 │   │   ├── AuthorizedWebPage.cs
@@ -61,7 +61,7 @@ This project demonstrates various design patterns implemented in C#. It contains
 │       └── TemplatePattern.cs
 ├── Material
 │   ├── Design Patterns.pdf
-│   ├── Glossary.pdf
+│   └── Glossary.pdf
 ├── Config
 │   ├── AdapterPattern.cs
 │   ├── CompositePattern.cs
