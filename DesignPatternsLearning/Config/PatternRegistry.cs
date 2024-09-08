@@ -7,8 +7,8 @@ namespace DesignPatternsLearning.Config
             { "1", new SingletonPattern() },
             { "2", new FactoryMethodPattern() },
             { "3", new FacadePattern() },
-            { "4", new AdapterPattern() }
-            // You can add more patterns here easily in the future.
+            { "4", new AdapterPattern() },
+            { "5", new CompositePattern() }
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -28,7 +28,7 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("2. Factory Method");
             Console.WriteLine("3. Facade");
             Console.WriteLine("4. Adapter");
-            // You can list more patterns here in the future.
+            Console.WriteLine("5. Composite");
         }
     }
 }
