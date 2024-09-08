@@ -4,6 +4,8 @@
 
 This project demonstrates various design patterns implemented in C#. It contains implementations of behavioral, creational, and structural patterns, with examples for each.
 
+This project is based on knowledge gained from the **Coursera** course [Design Patterns](https://www.coursera.org/learn/design-patterns) by the University of Alberta.
+
 ## Project Structure
 
 ```text
