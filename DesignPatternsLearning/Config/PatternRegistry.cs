@@ -9,7 +9,8 @@ namespace DesignPatternsLearning.Config
             { "3", new FacadePattern() },
             { "4", new AdapterPattern() },
             { "5", new CompositePattern() },
-            { "6", new ProxyPattern() }
+            { "6", new ProxyPattern() },
+            { "7", new DecoratorPattern() }
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -31,6 +32,7 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("4. Adapter");
             Console.WriteLine("5. Composite");
             Console.WriteLine("6. Proxy");
+            Console.WriteLine("7. Decorator");
         }
     }
 }
