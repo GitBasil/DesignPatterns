@@ -8,22 +8,6 @@ This project demonstrates various design patterns implemented in C#. It contains
 
 ```text
 .
-├── Behavioral/Template
-│   ├── PastaDish.cs
-│   ├── Penne.cs
-│   ├── Spaghetti.cs
-│   └── TemplatePattern.cs
-├── Config
-│   ├── AdapterPattern.cs
-│   ├── CompositePattern.cs
-│   ├── DecoratorPattern.cs
-│   ├── FacadePattern.cs
-│   ├── FactoryMethodPattern.cs
-│   ├── IPattern.cs
-│   ├── PatternRegistry.cs
-│   ├── ProxyPattern.cs
-│   ├── SingletonPattern.cs
-│   └── TemplatePattern.cs
 ├── Creational
 │   ├── FactoryMethod
 │   │   ├── Bike.cs
@@ -69,9 +53,25 @@ This project demonstrates various design patterns implemented in C#. It contains
 │       ├── Order.cs
 │       ├── OrderFulfillment.cs
 │       └── Warehouse.cs
+├── Behavioral/Template
+│   ├── PastaDish.cs
+│   ├── Penne.cs
+│   ├── Spaghetti.cs
+│   └── TemplatePattern.cs
 ├── Material
 │   ├── Design Patterns.pdf
 │   ├── Glossary.pdf
+├── Config
+│   ├── AdapterPattern.cs
+│   ├── CompositePattern.cs
+│   ├── DecoratorPattern.cs
+│   ├── FacadePattern.cs
+│   ├── FactoryMethodPattern.cs
+│   ├── IPattern.cs
+│   ├── PatternRegistry.cs
+│   ├── ProxyPattern.cs
+│   ├── SingletonPattern.cs
+│   └── TemplatePattern.cs
 ├── .gitignore
 ├── DesignPatternsLearning.csproj
 ├── DesignPatterns.sln
