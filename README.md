@@ -54,7 +54,7 @@ This project demonstrates various design patterns implemented in C#. It contains
 │       ├── OrderFulfillment.cs
 │       └── Warehouse.cs
 ├── Behavioral
-|   ├── Template
+|   └── Template
 │       ├── PastaDish.cs
 │       ├── Penne.cs
 │       ├── Spaghetti.cs
