@@ -15,6 +15,7 @@ namespace DesignPatternsLearning.Config
             {
                 return Patterns[choice];
             }
+
             return null;
         }
 
