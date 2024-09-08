@@ -8,7 +8,8 @@ namespace DesignPatternsLearning.Config
             { "2", new FactoryMethodPattern() },
             { "3", new FacadePattern() },
             { "4", new AdapterPattern() },
-            { "5", new CompositePattern() }
+            { "5", new CompositePattern() },
+            { "6", new ProxyPattern() }
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -29,6 +30,7 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("3. Facade");
             Console.WriteLine("4. Adapter");
             Console.WriteLine("5. Composite");
+            Console.WriteLine("6. Proxy");
         }
     }
 }
