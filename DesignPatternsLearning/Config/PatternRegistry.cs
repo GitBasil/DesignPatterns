@@ -10,7 +10,8 @@ namespace DesignPatternsLearning.Config
             { "4", new AdapterPattern() },
             { "5", new CompositePattern() },
             { "6", new ProxyPattern() },
-            { "7", new DecoratorPattern() }
+            { "7", new DecoratorPattern() },
+            { "8", new TemplatePattern() }
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -26,13 +27,17 @@ namespace DesignPatternsLearning.Config
         public static void ListPatterns()
         {
             Console.WriteLine("Choose a design pattern to test:");
+            Console.WriteLine("----Creational Patterns----");
             Console.WriteLine("1. Singleton");
             Console.WriteLine("2. Factory Method");
+            Console.WriteLine("----Structural Patterns----");
             Console.WriteLine("3. Facade");
             Console.WriteLine("4. Adapter");
             Console.WriteLine("5. Composite");
             Console.WriteLine("6. Proxy");
             Console.WriteLine("7. Decorator");
+            Console.WriteLine("----Behavioral Patterns----");
+            Console.WriteLine("8. Template");
         }
     }
 }
