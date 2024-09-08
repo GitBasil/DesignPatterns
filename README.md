@@ -1,4 +1,4 @@
-# DesignPatternsLearning
+# Design Patterns Learning in C#
 
 ## Description
 
