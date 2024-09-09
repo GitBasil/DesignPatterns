@@ -11,7 +11,8 @@ namespace DesignPatternsLearning.Config
             { "5", new CompositePattern() },
             { "6", new ProxyPattern() },
             { "7", new DecoratorPattern() },
-            { "8", new TemplatePattern() }
+            { "8", new TemplatePattern() },
+            { "9", new ChainOfResponsibilityPattern() },
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -38,6 +39,7 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("7. Decorator");
             Console.WriteLine("----Behavioral Patterns----");
             Console.WriteLine("8. Template");
+            Console.WriteLine("9. Chain of Responsibility");
         }
     }
 }

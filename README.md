@@ -56,7 +56,15 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │       ├── OrderFulfillment.cs
 │       └── Warehouse.cs
 ├── Behavioral
-|   └── Template
+│   ├── ChainOfResponsibility
+│   │   ├── Handlers
+│   │   │   ├── Handler.cs
+│   │   │   ├── HighLevelHandler.cs
+│   │   │   ├── IHandler.cs
+│   │   │   ├── LowLevelHandler.cs
+│   │   │   └── MidLevelHandler.cs
+│   │   └── ChainManager.cs
+│   └── Template
 │       ├── PastaDish.cs
 │       ├── Penne.cs
 │       ├── Spaghetti.cs
@@ -66,6 +74,7 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   └── Glossary.pdf
 ├── Config
 │   ├── AdapterPattern.cs
+│   ├── ChainOfResponsibilityPattern.cs
 │   ├── CompositePattern.cs
 │   ├── DecoratorPattern.cs
 │   ├── FacadePattern.cs
