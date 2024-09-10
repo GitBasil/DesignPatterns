@@ -75,17 +75,22 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   │   ├── IdleState.cs
 │   │   ├── HasOneDollarState.cs
 │   │   └── OutOfStockState.cs
-│   └── Command
-│       ├── ICommand.cs
-│       ├── PasteCommand.cs
-│       ├── Document.cs
-│       └── CommandManager.cs
+│   ├── Command
+│   │   ├── ICommand.cs
+│   │   ├── PasteCommand.cs
+│   │   ├── Document.cs
+│   │   └── CommandManager.cs
+│   └── Mediator
+│       ├── IChatRoomMediator.cs
+│       ├── ChatRoom.cs
+│       └── User.cs
 ├── Material
 │   ├── Design Patterns.pdf
 │   └── Glossary.pdf
 ├── Config
-│   ├── IPattern.cs
-│   ├── PatternRegistry.cs
+│   ├── Settings
+│   |   ├── IPattern.cs
+│   |   └── PatternRegistry.cs
 │   ├── SingletonPattern.cs
 │   ├── FactoryMethodPattern.cs
 │   ├── FacadePattern.cs
@@ -96,7 +101,8 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   ├── TemplatePattern.cs
 │   ├── ChainOfResponsibilityPattern.cs
 │   ├── StatePattern.cs
-│   └── CommandPattern.cs
+│   ├── CommandPattern.cs
+│   └── MediatorPattern.cs
 ├── .gitignore
 ├── DesignPatternsLearning.csproj
 ├── DesignPatterns.sln

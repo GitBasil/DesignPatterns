@@ -15,6 +15,7 @@ namespace DesignPatternsLearning.Config
             { "9", new ChainOfResponsibilityPattern() },
             { "10", new StatePattern() },
             { "11", new CommandPattern() },
+            { "12", new MediatorPattern() },
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -44,6 +45,7 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("9. Chain of Responsibility");
             Console.WriteLine("10. State");
             Console.WriteLine("11. Command");
+            Console.WriteLine("12. Mediator");
         }
     }
 }
