@@ -69,12 +69,17 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   │   ├── Penne.cs
 │   │   ├── Spaghetti.cs
 │   │   └── TemplatePattern.cs
-│   └── State
-│       ├── VendingMachine.cs
-│       ├── IState.cs
-│       ├── IdleState.cs
-│       ├── HasOneDollarState.cs
-│       └── OutOfStockState.cs
+│   ├── State
+│   │   ├── VendingMachine.cs
+│   │   ├── IState.cs
+│   │   ├── IdleState.cs
+│   │   ├── HasOneDollarState.cs
+│   │   └── OutOfStockState.cs
+│   └── Command
+│       ├── ICommand.cs
+│       ├── PasteCommand.cs
+│       ├── Document.cs
+│       └── CommandManager.cs
 ├── Material
 │   ├── Design Patterns.pdf
 │   └── Glossary.pdf
@@ -90,7 +95,8 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   ├── ProxyPattern.cs
 │   ├── TemplatePattern.cs
 │   ├── ChainOfResponsibilityPattern.cs
-│   └── StatePattern.cs
+│   ├── StatePattern.cs
+│   └── CommandPattern.cs
 ├── .gitignore
 ├── DesignPatternsLearning.csproj
 ├── DesignPatterns.sln
