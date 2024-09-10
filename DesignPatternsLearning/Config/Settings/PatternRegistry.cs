@@ -16,6 +16,7 @@ namespace DesignPatternsLearning.Config
             { "10", new StatePattern() },
             { "11", new CommandPattern() },
             { "12", new MediatorPattern() },
+            { "13", new ObserverPattern() },
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -46,6 +47,7 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("10. State");
             Console.WriteLine("11. Command");
             Console.WriteLine("12. Mediator");
+            Console.WriteLine("13. Observer");
         }
     }
 }

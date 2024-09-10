@@ -80,10 +80,15 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   │   ├── PasteCommand.cs
 │   │   ├── Document.cs
 │   │   └── CommandManager.cs
-│   └── Mediator
-│       ├── IChatRoomMediator.cs
-│       ├── ChatRoom.cs
-│       └── User.cs
+│   ├── Mediator
+│   |    ├── IChatRoomMediator.cs
+│   |    ├── ChatRoom.cs
+│   |    └── User.cs
+│   └── Observer
+│       ├── IObserver.cs
+│       ├── Subject.cs
+│       ├── Blog.cs
+│       └── Subscriber.cs
 ├── Material
 │   ├── Design Patterns.pdf
 │   └── Glossary.pdf
@@ -102,7 +107,8 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   ├── ChainOfResponsibilityPattern.cs
 │   ├── StatePattern.cs
 │   ├── CommandPattern.cs
-│   └── MediatorPattern.cs
+│   ├── MediatorPattern.cs
+│   └── ObserverPattern.cs
 ├── .gitignore
 ├── DesignPatternsLearning.csproj
 ├── DesignPatterns.sln
