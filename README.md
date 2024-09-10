@@ -64,26 +64,33 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   │   │   ├── LowLevelHandler.cs
 │   │   │   └── MidLevelHandler.cs
 │   │   └── ChainManager.cs
-│   └── Template
-│       ├── PastaDish.cs
-│       ├── Penne.cs
-│       ├── Spaghetti.cs
-│       └── TemplatePattern.cs
+│   ├── Template
+│   │   ├── PastaDish.cs
+│   │   ├── Penne.cs
+│   │   ├── Spaghetti.cs
+│   │   └── TemplatePattern.cs
+│   └── State
+│       ├── VendingMachine.cs
+│       ├── IState.cs
+│       ├── IdleState.cs
+│       ├── HasOneDollarState.cs
+│       └── OutOfStockState.cs
 ├── Material
 │   ├── Design Patterns.pdf
 │   └── Glossary.pdf
 ├── Config
-│   ├── AdapterPattern.cs
-│   ├── ChainOfResponsibilityPattern.cs
-│   ├── CompositePattern.cs
-│   ├── DecoratorPattern.cs
-│   ├── FacadePattern.cs
-│   ├── FactoryMethodPattern.cs
 │   ├── IPattern.cs
 │   ├── PatternRegistry.cs
-│   ├── ProxyPattern.cs
 │   ├── SingletonPattern.cs
-│   └── TemplatePattern.cs
+│   ├── FactoryMethodPattern.cs
+│   ├── FacadePattern.cs
+│   ├── AdapterPattern.cs
+│   ├── CompositePattern.cs
+│   ├── DecoratorPattern.cs
+│   ├── ProxyPattern.cs
+│   ├── TemplatePattern.cs
+│   ├── ChainOfResponsibilityPattern.cs
+│   └── StatePattern.cs
 ├── .gitignore
 ├── DesignPatternsLearning.csproj
 ├── DesignPatterns.sln
