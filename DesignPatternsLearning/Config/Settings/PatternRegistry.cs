@@ -17,6 +17,9 @@ namespace DesignPatternsLearning.Config
             { "11", new CommandPattern() },
             { "12", new MediatorPattern() },
             { "13", new ObserverPattern() },
+            { "14", new LSPPrinciple() },
+            { "15", new OpenClosePrinciple() },
+            { "16", new DependencyInversionPrinciple() },
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -48,6 +51,10 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("11. Command");
             Console.WriteLine("12. Mediator");
             Console.WriteLine("13. Observer");
+            Console.WriteLine("----Design Principles----");
+            Console.WriteLine("14. LSP");
+            Console.WriteLine("15. OpenClose");
+            Console.WriteLine("16. Dependency Inversion");
         }
     }
 }
