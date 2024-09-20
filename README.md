@@ -4,7 +4,7 @@
 
 This project demonstrates various design patterns implemented in C#. It contains implementations of behavioral, creational, and structural patterns, with examples for each.
 
-This project is based on knowledge gained from the **Coursera** course [Design Patterns](https://www.coursera.org/learn/design-patterns) by the University of Alberta.
+This project is based on knowledge gained from the **Coursera** course [Design Patterns](https://www.coursera.org/learn/design-patterns) by the University of Alberta and the **ASD** course at **MIU**.
 
 ## Project Structure
 
@@ -83,32 +83,99 @@ This project is based on knowledge gained from the **Coursera** course [Design P
 │   ├── Mediator
 │   |    ├── IChatRoomMediator.cs
 │   |    ├── ChatRoom.cs
-│   |    └── User.cs
+│   |    ├── User.cs
+│   |    └── Mediator-Pattern.pdf
 │   └── Observer
 │       ├── IObserver.cs
 │       ├── Subject.cs
 │       ├── Blog.cs
 │       └── Subscriber.cs
+├── DesignPrinciples
+│   ├── DependencyInversion
+│   │   ├── Followed
+│   │   │   ├── ClientSubsystem.cs
+│   │   │   ├── ISorting.cs
+│   │   │   ├── MergeSort.cs
+│   │   │   └── QuickSort.cs
+│   │   └── Violation
+│   │       ├── ClientSubsystem.cs
+│   │       └── MergeSort.cs
+│   ├── InterfaceSegregation
+│   │   ├── Followed
+│   │   │   ├── HumanCashier.cs
+│   │   │   ├── ICashier.cs
+│   │   │   ├── IHumanWorker.cs
+│   │   │   └── SelfServeMachine.cs
+│   │   └── Violation
+│   │       ├── HumanCashier.cs
+│   │       ├── ICashier.cs
+│   │       └── SelfServeMachine.cs
+│   ├── LeastKnowledge
+│   │   ├── Followed
+│   │   │   ├── Customer.cs
+│   │   │   ├── Money.cs
+│   │   │   ├── Store.cs
+│   │   │   ├── Wallet.cs
+│   │   └── Violation
+│   │       ├── Customer.cs
+│   │       ├── Money.cs
+│   │       ├── Store.cs
+│   │       └── Wallet.cs
+│   ├── LSP
+│   │   ├── Bird.cs
+│   │   ├── Penguin.cs
+│   │   ├── Sparrow.cs
+│   └── OpenClose
+│       ├── AreaCalculator.cs
+│       ├── Circle.cs
+│       ├── Rectangle.cs
+│       └──Shape.cs
+├── Config
+│   ├── Patterns
+│   │   ├── AdapterPattern.cs
+│   │   ├── ChainOfResponsibilityPattern.cs
+│   │   ├── CommandPattern.cs
+│   │   ├── CompositePattern.cs
+│   │   ├── DecoratorPattern.cs
+│   │   ├── FacadePattern.cs
+│   │   ├── FactoryMethodPattern.cs
+│   │   ├── MediatorPattern.cs
+│   │   ├── ObserverPattern.cs
+│   │   ├── ProxyPattern.cs
+│   │   ├── SingletonPattern.cs
+│   │   ├── StatePattern.cs
+│   │   └── TemplatePattern.cs
+│   ├── Principles
+│   │   ├── DependencyInversionPrinciple.cs
+│   │   ├── InterfaceSegregationPrinciple.cs
+│   │   ├── LeastKnowledgePrinciple.cs
+│   │   ├── LSPPrinciple.cs
+│   │   ├── OpenClosePrinciple.cs
+│   └── Settings
+│       ├── IPattern.cs
+│       └── PatternRegistry.cs
 ├── Material
+│   ├── ASD
+│   │   ├── slides
+│   │   │   ├── Lesson01.pdf
+│   │   │   ├── Lesson02.pdf
+│   │   │   ├── Lesson03.pdf
+│   │   │   ├── Lesson04.pdf
+│   │   │   ├── Lesson05.pdf
+│   │   │   ├── Lesson06.pdf
+│   │   │   ├── Lesson07.pdf
+│   │   │   ├── Lesson08.pdf
+│   │   │   ├── Lesson09-1.pdf
+│   │   │   ├── Lesson09-2.pdf
+│   │   │   ├── Lesson09.pdf
+│   │   │   ├── Lesson10.pdf
+│   │   │   ├── Lesson11.pdf
+│   │   │   └── Lesson12.pdf
+│   │   ├── CS525-2024-05A-05D-CourseOverviewChart.pdf
+│   │   ├── CS525-2024-05A-05D-Syllabus-PaymanSalek.pdf
+│   │   └── DesignPatternsChart.pdf
 │   ├── Design Patterns.pdf
 │   └── Glossary.pdf
-├── Config
-│   ├── Settings
-│   |   ├── IPattern.cs
-│   |   └── PatternRegistry.cs
-│   ├── SingletonPattern.cs
-│   ├── FactoryMethodPattern.cs
-│   ├── FacadePattern.cs
-│   ├── AdapterPattern.cs
-│   ├── CompositePattern.cs
-│   ├── DecoratorPattern.cs
-│   ├── ProxyPattern.cs
-│   ├── TemplatePattern.cs
-│   ├── ChainOfResponsibilityPattern.cs
-│   ├── StatePattern.cs
-│   ├── CommandPattern.cs
-│   ├── MediatorPattern.cs
-│   └── ObserverPattern.cs
 ├── .gitignore
 ├── DesignPatternsLearning.csproj
 ├── DesignPatterns.sln
