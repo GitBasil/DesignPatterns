@@ -20,6 +20,8 @@ namespace DesignPatternsLearning.Config
             { "14", new LSPPrinciple() },
             { "15", new OpenClosePrinciple() },
             { "16", new DependencyInversionPrinciple() },
+            { "17", new InterfaceSegregationPrinciple() },
+            { "18", new LeastKnowledgePrinciple() },
         };
 
         public static IPattern? GetPattern(string? choice)
@@ -55,6 +57,8 @@ namespace DesignPatternsLearning.Config
             Console.WriteLine("14. LSP");
             Console.WriteLine("15. OpenClose");
             Console.WriteLine("16. Dependency Inversion");
+            Console.WriteLine("17. Interface Segregation");
+            Console.WriteLine("18. Least Knowledge");
         }
     }
 }

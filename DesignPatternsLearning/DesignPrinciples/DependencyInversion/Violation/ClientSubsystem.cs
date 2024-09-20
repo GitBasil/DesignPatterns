@@ -1,4 +1,4 @@
-namespace DesignPatternsLearning.DesignPrinciples.DependencyInversion.Bad
+namespace DesignPatternsLearning.DesignPrinciples.DependencyInversion.Violation
 {
     public class ClientSubsystem
     {
